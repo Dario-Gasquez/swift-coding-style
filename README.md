@@ -1,6 +1,6 @@
 # Swift Coding Style
 ## Description
-Provides a few general coding style suggestions for the Swift language. Updated to Swift 3.0. 
+Provides a few general coding style suggestions for the Swift language. Updated for Swift 3.0. 
 
 ## Access Control
 Keep public, private, etc. elements of a type grouped together. With higher access elements on top and others at the bottom, i.e. Public first and Private last.
