@@ -1,4 +1,5 @@
-# Swift Coding Style
+# Swift 3.0 Coding Style
+
 ## Description
 Provides a few general coding style suggestions for the Swift language. Updated for Swift 3.0. 
 
