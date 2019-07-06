@@ -9,7 +9,7 @@ Keep public, private, etc. elements of a type grouped together. With higher acce
 ```swift
 class ImageViewerController: UIViewController, UIScrollViewDelegate {
     
-    //MARK: - PUBLIC SECTION -
+    //MARK: - Public Section -
     var image: UIImage? {
         //code
     }
@@ -24,7 +24,7 @@ class ImageViewerController: UIViewController, UIScrollViewDelegate {
         updateScrollViewZoomLevel()
     }
     
-    //MARK: - PRIVATE SECTION -
+    //MARK: - Private Section -
     @IBOutlet private weak var scrollView: UIScrollView! {
         didSet {
             scrollView.contentSize = imageView.frame.size
