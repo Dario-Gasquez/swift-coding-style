@@ -40,6 +40,14 @@ class ImageViewerController: UIViewController, UIScrollViewDelegate {
 }
 ```
 
+
+## Naming Conventions
+
+### When naming types avoid too generic suffixes like Controller or Manager
+In iOS in particular the Controller suffix is easy to confuse with the pervasive \*ViewController name. Try to choose a more specific suffix for the role of the type you are defining.
+
+
+
 ## References
 * [Apple's API Design Guidelines](https://swift.org/documentation/api-design-guidelines/)
 * [Raywenderlich Swift Style Guide](https://github.com/raywenderlich/swift-style-guide)
